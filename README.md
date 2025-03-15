@@ -3,7 +3,7 @@
 
 ## 📝 About
 This is a simple **To-Do List App** where users can:
-- ✅ **Add tasks** to their to-do list.
+- ✅ **Add tasks** to their Todo-List-Upgraded.
 - ✍️ **Mark tasks as completed** (tasks will have a strikethrough effect).
 - ❌ **Remove completed tasks** from the list.
 - 🎉 **Blast a popper** when all tasks are completed!
