@@ -1,4 +1,4 @@
-# Todo-List-Upgraded
+# Todo-List
 # 📌 To-Do List App
 
 ## 📝 About
@@ -30,7 +30,7 @@ This is a simple **To-Do List App** where users can:
 ## 📦 Installation & Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Todo-list_Upgraded.git
+   git clone https://github.com/yourusername/Todo-list.git
    ```
 2. **Navigate to the project folder:**
    ```bash
