@@ -30,7 +30,7 @@ This is a simple **To-Do List App** where users can:
 ## 📦 Installation & Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Todo-list.git
+   git clone https://github.com/EpicDivakar/Todo-list.git
    ```
 2. **Navigate to the project folder:**
    ```bash
