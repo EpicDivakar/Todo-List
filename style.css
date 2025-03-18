@@ -1,29 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --background :#000430;
-    --secondaryBackground:#171c48;
+
+:root {
+    --background: #000430;
+    --secondaryBackground: #171c48;
     --text: #fff;
-    --purple:#828dff;
-    --teal:#24feee;
+    --purple: #828dff;
+    --teal: #24feee;
 }
-body{
+
+body {
     background-color: var(--background);
     color: var(--text);
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 120px auto 0 auto;
     max-width: 500px;
-
 }
-.stats-container{
+
+.stats-container {
     padding: 10px;
     border-radius: 5px;
     border: 2px solid var(--purple);
@@ -32,27 +35,29 @@ body{
     width: 100%;
     justify-content: space-between;
 }
-.details{
+
+.details {
     width: 100%;
     margin-left: 10px;
-
 }
-#progressbar{
+
+#progressbar {
     width: 100%;
     height: 10px;
     background-color: var(--secondaryBackground);
     border-radius: 5px;
     margin-top: 20px;
-
 }
-#progress{
+
+#progress {
     width: 50%;
     height: 10px;
     background-color: var(--teal);
     border-radius: 5px;
     transition: all 0.3 ease;
 }
-#numbers{
+
+#numbers {
     width: 100px;
     height: 100px;
     background-color: var(--purple);
@@ -63,21 +68,23 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
+
 form {
     margin-top: 60px;
     width: 100%;
     display: flex;
 }
-input{
+
+input {
     flex: 1;
     padding: 10px;
     background: var(--secondaryBackground);
     border: 1px solid var(--purple);
     border-radius: 10px;
     color: var(--text);
-
 }
-button{
+
+button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -89,4 +96,51 @@ button{
     font-size: 30px;
     font-weight: bold;
     outline: none;
+}
+.task-list {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.task-item {
+    background: var(--secondaryBackground);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid var(--purple);
+    font-size: 18px;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.3);
+}
+
+.task-item span {
+    flex: 1;
+    margin-left: 10px;
+    word-break: break-word;
+}
+
+.delete-btn {
+    background: var(--purple);
+    color: var(--text);
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-btn:hover {
+    background: var(--teal);
 }
